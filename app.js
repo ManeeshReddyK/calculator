@@ -31,4 +31,4 @@ app.use('/divide', function (req, res, next) {
     res.send({ 'divide': divide });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
