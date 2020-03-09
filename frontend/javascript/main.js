@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
     addButtonElement.addEventListener('click', function () {
         var firstnumber = firstnumberElementAdd.value;
         var secondnumber = secondnumberElementAdd.value;
-        var url = 'http://localhost:3000/add?firstnumber=' + firstnumber + '&secondnumber=' + secondnumber;
+        var url = '/add?firstnumber=' + firstnumber + '&secondnumber=' + secondnumber;
         callServer(url, 'sum');
     });
 
